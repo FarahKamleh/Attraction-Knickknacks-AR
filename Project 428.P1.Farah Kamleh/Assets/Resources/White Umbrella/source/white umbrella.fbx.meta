@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db449b790448c124695974bc4c5510c9
+guid: af3b64f8c9afa154396c5d95fbb9a6c6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material__26
-    second: {fileID: 2100000, guid: ff920c507f564094aa26fbc9c3075802, type: 2}
+      name: Patio_Umbrella
+    second: {fileID: 2100000, guid: 6eb91c977a0a93248a1d18d1e4ff121e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
