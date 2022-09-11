@@ -42,11 +42,11 @@ public class EmeryvilleCaliforniaTime : MonoBehaviour
                 // this code will NOT fail gracefully, so make sure you have
                 // your API key before running or you will get an error
 
-            	// grab the current time and simplify it if needed
+            	// EDIT: grab the current time and simplify it if needed
                 int startTime = webRequest.downloadHandler.text.IndexOf("datetime", 0);
                 int endTime = webRequest.downloadHandler.text.IndexOf(",", startTime);
                 string twentyFourTime = webRequest.downloadHandler.text.Substring(startTime + 22, (endTime - startTime - 36));
-                Debug.Log("twentyFourTime is " + twentyFourTime);
+                // Debug.Log("twentyFourTime is " + twentyFourTime);
 
                 timeTextObject.GetComponent<TextMeshPro>().text = "" + twentyFourTime;
 
