@@ -51,8 +51,8 @@ public class ReedsportOregonTime : MonoBehaviour
                 /* EDIT: convert from 24 hour time to AM/PM */
 
                 // EDIT: gather the hours from the twelveTime string
-                int hourOne = twentyFourTime[0];
-                int hourTwo = twentyFourTime[1];
+                int hourOne = twentyFourTime[0] - '0';
+                int hourTwo = twentyFourTime[1] - '0';
 
                 // EDIT: perform operations
                 int hour = hourOne * 10 + hourTwo;
